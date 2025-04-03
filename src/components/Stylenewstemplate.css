@@ -1,0 +1,104 @@
+/* Container for the entire template */
+.template-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Heading Styles */
+.template-heading {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+.template-username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+/* Image Styles */
+.template-image {
+    width: 50%;
+    max-width: 500px;
+    height: 30vh;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+/* Content Box Styles */
+.template-content-box {
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* Paragraph inside content box */
+.template-content-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+.template-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.like-btn, .dislike-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.dislike-btn {
+    background-color: #dc3545;
+}
+
+.like-btn:hover {
+    background-color: #0056b3;
+}
+
+.dislike-btn:hover {
+    background-color: #c82333;
+}
+
+.comment-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .template-heading {
+        font-size: 1.5rem;
+    }
+
+    .template-image {
+        max-width: 100%;
+    }
+
+    .template-content-box p {
+        font-size: 0.9rem;
+    }
+}
