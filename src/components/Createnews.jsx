@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './stylecreatenews.css';
+import './Stylecreatenews.css';
 import './Stylehome.css';
 import axios from "axios";
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
