@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Stylesignup.css'
-import './stylecreatenews.css'
+import './Stylecreatenews.css'
 import axios from "axios";
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 function Signup() {
