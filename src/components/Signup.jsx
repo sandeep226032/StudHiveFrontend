@@ -10,6 +10,7 @@ function Signup() {
     const [password,setpassword]=useState("");
     const [result,setresult]=useState("");
     const [decide,setdecide]=useState(true);
+    // console.log(API_BASE_URL);
     const register = async (e) => {
       e.preventDefault();
   
