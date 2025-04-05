@@ -1,7 +1,7 @@
 function Userpost() {
     return (
         <>
-        <h1>display all post</h1>
+        <h1>display all post hello</h1>
 
         </>
     )
