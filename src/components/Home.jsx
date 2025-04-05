@@ -69,7 +69,7 @@ function Home() {
                     }} className="navbar-btn login-btn">Log In</button></>}
                     <button onClick={logout} className="navbar-btn logout-btn">Log Out</button>
                     <ToastContainer /> 
-                    {islogin&& !islogout&& <button className="user-button">{username}</button>}
+                    {islogin&& !islogout&& <button className="user-button">{username}</button>&&<Link to="/yourpost"><button className="user-button">Your post</button></Link>}
                 </div>
             </div>
         </nav>
